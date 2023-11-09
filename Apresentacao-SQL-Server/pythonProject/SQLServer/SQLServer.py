@@ -50,7 +50,7 @@ string_sql = """
 """
 
 cursor.execute(string_sql)
-print(cursor.fetchall())  # Escrever tudo na mesma linha
+# print(cursor.fetchall())  # Escrever tudo na mesma linha
 
 for p in cursor.fetchall():
     print(f'''Código: {p[0]:<10}
